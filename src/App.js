@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Dinner from './Dinner'
+import Dinner from './Dinner';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
         <Dinner></Dinner>
-      </header>
     </div>
   );
 }
