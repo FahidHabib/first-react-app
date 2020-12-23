@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Dinner from './Dinner'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <h1>Hello World</h1>
+          <Dinner/>
         </p>
         <a
           className="App-link"
